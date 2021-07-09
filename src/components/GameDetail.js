@@ -88,6 +88,7 @@ const GameDetail = ({ pathId }) => {
 											<img
 												key={data.platform.id}
 												src={getPlatform(data.platform.name)}
+												alt={data.platform.name}
 											></img>
 										))}
 									</Platforms>
